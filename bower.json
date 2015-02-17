@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Module for base64 encoding/decoding in Angular",
   "homepage": "https://github.com/chrislondon/angular-base64",
-  "license" : ["http://bartaz.mit-license.org/", "http://www.gnu.org/licenses/"],
+  "license": [
+    "http://bartaz.mit-license.org/",
+    "http://www.gnu.org/licenses/"
+  ],
   "main": [
     "./dist/angular-base64.min.js"
   ],
@@ -15,5 +18,9 @@
   "author": {
     "name": "Chris London",
     "web": "https://github.com/chrislondon"
+  },
+  "dependencies": {
+    "angular": "~1.3.13",
+    "angular-mocks": "~1.3.13"
   }
 }
